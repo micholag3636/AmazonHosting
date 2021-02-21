@@ -30,7 +30,7 @@ function submit(event){
   }
 
  
-  axios.post("http://localhost:5000/app/signup", registered)
+  axios.post("https://amazon-mern-clone.herokuapp.com/app/signup", registered)
   .then(response =>  props.changeToTrue())
 
  
